@@ -39,3 +39,29 @@
   "author": "",
   "license": "ISC"
 }
+
+{
+  "name": "wobbly-ladder",
+  "version": "1.0.0",
+  "description": "HTML game exported from Google AI Studio",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder --win nsis --publish never"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "appId": "com.shailesh.wobblyladder",
+    "productName": "The Wobbly Ladder",
+    "files": [
+      "**/*",
+      "!dist/**",
+      "!.github/**"
+    ],
+    "win": {
+      "target": ["nsis"]
+    }
+  }
+}
