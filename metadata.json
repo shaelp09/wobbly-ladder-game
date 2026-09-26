@@ -1,0 +1,6 @@
+{
+  "name": "The Wobbly Ladder",
+  "description": "A physics-based vertical dexterity and improvisation puzzle game where you use everyday Indian objects and JUGAAD ingenuity to fix a wobbly ladder and climb to the top.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
